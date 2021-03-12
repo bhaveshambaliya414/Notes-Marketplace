@@ -1,0 +1,808 @@
+/* ============================================
+            Bootstrap 4 Media Queries
+===============================================*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    section {
+        padding-bottom: 30px;
+    }
+
+    /* =====================================
+             Navgation
+    ======================================== */
+    .navbar {
+        display: block;
+    }
+
+    nav .container {
+        max-width: 100%;
+        margin: 0 !important;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+    }
+
+    #navbarSupportedContent {
+        background: #fff;
+    }
+
+    .navbar-toggler {
+        padding-right: 20px !important;
+    }
+
+    nav .dropdown-menu {
+        border: none;
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    nav li.profile-dropdown .dropdown-menu a.logout:hover {
+        color: #6255a5;
+    }
+
+    nav .dropdown-item {
+        padding: 9px 18px;
+        font-size: 14px;
+    }
+
+    nav .dropdown-menu .dropdown-item:hover,
+    nav .dropdown-menu .dropdown-item:focus,
+    nav .dropdown-menu .dropdown-item:active {
+        color: #6255a5;
+        background-color: #fff;
+    }
+
+    nav .profile-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    ul.navbar-nav {
+        padding: 0 10px;
+        margin-top: 15px;
+    }
+
+    ul.navbar-nav li {
+        margin-bottom: 15px;
+    }
+
+
+
+    /* ========================================
+                Home Page
+======================================== */
+    section {
+        padding-bottom: 30px;
+    }
+
+    .basic-heading h3 {
+        font-size: 30px;
+    }
+
+    .heading h3 {
+        text-align: center;
+        font-size: 25px;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+
+    #home-content {
+        height: 520px;
+    }
+
+    #home-heading p {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    #home-text p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    #home-btn .btn-home {
+        width: 100px;
+        font-size: 10px;
+        padding: 0px;
+    }
+
+    /*  About  */
+    #about #about-right p {
+
+        font-size: 13px;
+    }
+
+    /*  Work  */
+    .work-image {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    .work-item h5 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .work-item p {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .work-btn .btn-work {
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .work-item {
+        padding-bottom: 30px;
+    }
+
+    /*  testimonial  */
+
+    .testimonial .author {
+        padding-left: 10px;
+    }
+
+    .testimonial img {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .author {
+        margin: 0;
+    }
+
+    .author h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .testimonial .col-md-3 {
+        width: 25%;
+    }
+
+    .testimonial .col-md-9 {
+        width: 75%;
+    }
+
+    .testimonial p {
+        font-size: 13px;
+    }
+
+    .author p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    /*  FAQ  */
+
+    #faq-home .basic-heading-lg h3 {
+        padding-top: 30px;
+    }
+
+    #uploaders,
+    #general-questions {
+        margin-bottom: 40px;
+    }
+
+    .faq-questions {
+        margin-bottom: 10px;
+
+    }
+
+    .card-header h6 {
+        font-size: 13px;
+        line-height: 20px;
+        padding: 8px 10px 10px 10px;
+    }
+
+    .card-header a img {
+        width: 33px;
+        height: 33px;
+    }
+
+    /* footer */
+    .footer-text p {
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .footer-icon ul {
+        text-align: center;
+    }
+
+    ul.social-list li a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    /* ========================================
+                Search notes
+    ======================================== */
+    .note-image {
+        border: 1px solid #d1d1d1;
+        width: 300px;
+    }
+
+    .note-info {
+        border: 1px solid #d1d1d1;
+        width: 300px;
+    }
+
+    /* ========================================
+                Dashboard
+    ======================================== */
+    #dashboard,
+    #download-notes,
+    #buyer-requests,
+    #rejected-notes,
+    #sold-notes {
+        margin-top: 75px;
+        padding-top: 30px;
+    }
+
+    .e-box {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .box-lg {
+        padding-bottom: 20px;
+        padding-left: 15px;
+    }
+
+    .table-general table tr {
+        height: 50px;
+        border-bottom: 1px solid #d1d1d1;
+    }
+
+    .table-general table td a {
+        padding: 5px;
+    }
+
+    .btn-addnote {
+        width: 110px;
+        float: right;
+        font-size: 14px;
+    }
+
+    .search-bar {
+        margin-top: 10px;
+        margin-left: 0;
+
+
+    }
+
+    .btn-search {
+        margin-left: 0;
+        margin-bottom: 10px;
+        width: 105px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 8px;
+    }
+
+    /* ========================================
+                Notes Details
+    ======================================== */
+    #note-details {
+        padding-top: 30px;
+    }
+
+    .book-info {
+        margin-top: 30px;
+    }
+
+    .note-detail-right {
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .customer-reviews {
+        margin-top: 10px;
+    }
+
+    .note-detail-preview {
+        margin-bottom: 40px;
+    }
+
+    .customer-reviews {
+        height: auto;
+        margin-right: 15px;
+    }
+
+    /* ========================================
+                Login
+    ======================================== */
+    .box {
+        width: 270px;
+    }
+
+    .sign-up-text {
+        font-size: 14px;
+    }
+
+    .form-content {
+        padding: 10px 20px;
+    }
+
+    /*  review  */
+    .rate:not(:checked) > label {
+        margin-right: 5px;
+    }
+
+    .modal-body .btn-submit {
+        font-size: 17px;
+        width: 90px;
+    }
+
+    /*  email verification  */
+    .btn-email-verify {
+        width: 70%;
+    }
+
+    #verify-email p {
+        font-size: 14px;
+    }
+}
+
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    section {
+        padding-bottom: 45px;
+    }
+
+    /* =====================================
+             Navgation
+    ======================================== */
+    .navbar {
+        display: block;
+    }
+
+    nav .container {
+        max-width: 100%;
+        margin: 0 !important;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+    }
+
+    #navbarSupportedContent {
+        background: #fff;
+    }
+
+    .navbar-toggler {
+        padding-right: 20px !important;
+    }
+
+    nav .dropdown-menu {
+        border: none;
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    nav li.profile-dropdown .dropdown-menu a.logout:hover {
+        color: #6255a5;
+    }
+
+    nav .dropdown-item {
+        padding: 9px 18px;
+        font-size: 14px;
+    }
+
+    nav .dropdown-menu .dropdown-item:hover,
+    nav .dropdown-menu .dropdown-item:focus,
+    nav .dropdown-menu .dropdown-item:active {
+        color: #6255a5;
+        background-color: #fff;
+    }
+
+    nav .profile-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    ul.navbar-nav {
+        padding: 0 10px;
+        margin-top: 15px;
+    }
+
+    ul.navbar-nav li {
+        margin-bottom: 15px;
+    }
+
+    /* ========================================
+                Home
+    ======================================== */
+    /* heading */
+    .heading h3 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    /* head */
+    #home-content {
+        height: 550px;
+    }
+
+    #home-heading p {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #home-text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    /* about */
+
+
+    /* work */
+    .work-item {
+        padding-bottom: 30px;
+    }
+
+    .work-item h5 {
+        font-size: 23px;
+        margin-bottom: 8px;
+    }
+
+    .work-item p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    /* footer */
+    .footer-text p {
+        font-size: 13px;
+    }
+
+    /*  user profile  */
+    #user-profile {
+        margin-top: 0px;
+    }
+
+    /*  FAQ  */
+
+    #faq-home .basic-heading-lg h3 {
+        padding-top: 60px;
+    }
+
+    #uploaders,
+    #general-questions {
+        margin-bottom: 40px;
+    }
+
+    .faq-questions {
+        margin-bottom: 10px;
+
+    }
+
+    .card-header h6 {
+        font-size: 15px;
+        line-height: 20px;
+        padding: 8px 10px 10px 10px;
+    }
+
+    .card-header a img {
+        width: 34px;
+        height: 34px;
+    }
+
+    /* ========================================
+                Search notes
+    ======================================== */
+    .note-image {
+        border: 1px solid #d1d1d1;
+        width: 450px;
+    }
+
+    .note-info {
+        border: 1px solid #d1d1d1;
+        width: 450px;
+    }
+
+    /* ========================================
+                Dashboard
+    ======================================== */
+    #dashboard,
+    #download-notes,
+    #buyer-requests,
+    #rejected-notes,
+    #sold-notes {
+        margin-top: 75px;
+        padding-top: 40px;
+    }
+
+    .e-box,
+    .box-lg {
+        padding-bottom: 20px;
+    }
+
+    .btn-addnote {
+        width: 140px;
+    }
+
+    .search-bar {
+        margin-left: 0px;
+    }
+
+    /* ========================================
+                Notes Details
+    ======================================== */
+    #note-details {
+        padding-top: 40px;
+    }
+
+    .note-detail-right {
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .customer-reviews {
+        margin-top: 10px;
+    }
+
+    .note-detail-preview {
+        margin-bottom: 40px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    section {
+        padding-bottom: 50px;
+    }
+
+    /* =====================================
+             Navgation
+    ======================================== */
+    .navbar {
+        display: block;
+    }
+
+    nav .container {
+        max-width: 100%;
+        margin: 0 !important;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+    }
+
+    #navbarSupportedContent {
+        background: #fff;
+    }
+
+    .navbar-toggler {
+        padding-right: 20px !important;
+    }
+
+    nav .dropdown-menu {
+        border: none;
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    nav li.profile-dropdown .dropdown-menu a.logout:hover {
+        color: #6255a5;
+    }
+
+    nav .dropdown-item {
+        padding: 9px 18px;
+        font-size: 14px;
+    }
+
+    nav .dropdown-menu .dropdown-item:hover,
+    nav .dropdown-menu .dropdown-item:focus,
+    nav .dropdown-menu .dropdown-item:active {
+        color: #6255a5;
+        background-color: #fff;
+    }
+
+    nav .profile-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    ul.navbar-nav {
+        padding: 0 10px;
+        margin-top: 15px;
+    }
+
+    ul.navbar-nav li {
+        margin-bottom: 15px;
+    }
+
+    /* ========================================
+                Home
+    ======================================== */
+    /* heading */
+    .heading h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    /* head */
+    #home-content {
+        height: 560px;
+    }
+
+    #home-heading p {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #home-text p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    #home-content-inner {
+        top: 55%;
+    }
+
+    /* about */
+    #about-right p {
+        font-size: 14px;
+    }
+
+    .work-item p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+
+    /* testimonial */
+    .testimonial .author {
+        margin-top: 0px;
+    }
+
+    .testimonial img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .author h5 {
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .author p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    /* footer */
+    .footer-text {
+        width: 50%;
+    }
+
+    .footer-icon {
+        width: 50%;
+    }
+
+    /* ========================================
+                Dashboard
+    ======================================== */
+    #dashboard,
+    #download-notes,
+    #buyer-requests,
+    #rejected-notes,
+    #sold-notes {
+        margin-top: 75px;
+        padding-top: 50px;
+    }
+
+    .notes-earning-info h3 {
+        font-size: 22px;
+    }
+
+    .notes-earning-info p {
+        font-size: 14px;
+    }
+
+    #my-earning img {
+        margin: 5px;
+        width: 25px;
+        height: 25px;
+    }
+
+    #my-earning h5 {
+        font-size: 20px;
+    }
+
+    .btn-addnote {
+        width: 135px;
+        margin-left: -43px;
+    }
+
+    .btn-search {
+        width: 90px;
+        margin-left: -20px;
+    }
+
+    .search-bar {
+        margin-left: -25px;
+    }
+
+    /* ========================================
+                Notes Details
+    ======================================== */
+    #note-details {
+        padding-top: 50px;
+    }
+
+    .note-detail-right {
+        margin-top: 20px;
+    }
+
+    .customer-reviews,
+    .note-detail-preview {
+        height: 600px;
+    }
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #navbarSupportedContent .nav-item {
+        padding: 0 10px;
+    }
+
+    /* ========================================
+                Home
+    ======================================== */
+    /* head */
+    #home-content {
+        height: 580px;
+    }
+
+    #home-heading p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #home-text p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    /* ========================================
+                Search notes
+    ======================================== */
+    .serach-filter {
+        background-color: #f9f9f9;
+        padding: 30px;
+        margin-left: 0px;
+    }
+
+    /* ========================================
+                Dashboard
+    ======================================== */
+    .btn-addnote {
+        width: 135px;
+        font-size: 17px;
+        margin-left: -5px;
+    }
+
+    .btn-search {
+        width: 90px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
