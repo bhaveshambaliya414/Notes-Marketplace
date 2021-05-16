@@ -1,0 +1,689 @@
+/* ============================================
+            Bootstrap 4 Media Queries
+===============================================*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    section {
+        padding-bottom: 30px;
+    }
+
+    /* =====================================
+             Navgation
+    ======================================== */
+    .navbar {
+        display: block;
+    }
+
+    nav .container {
+        max-width: 100%;
+        margin: 0 !important;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+    }
+
+    #navbarSupportedContent {
+        background: #fff;
+    }
+
+    .navbar-toggler {
+        padding-right: 20px !important;
+    }
+
+    nav .dropdown-menu {
+        border: none;
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    nav li.profile-dropdown .dropdown-menu a.logout:hover {
+        color: #6255a5;
+    }
+
+    nav .dropdown-item {
+        padding: 9px 18px;
+        font-size: 14px;
+    }
+
+    nav .dropdown-menu .dropdown-item:hover,
+    nav .dropdown-menu .dropdown-item:focus,
+    nav .dropdown-menu .dropdown-item:active {
+        color: #6255a5;
+        background-color: #fff;
+    }
+
+    /*--------------- DropDowns --------------*/
+    nav .profile-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    nav .notes-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    nav .settings-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    nav .reports-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    ul.navbar-nav {
+        padding: 0 10px;
+        margin-top: 15px;
+    }
+
+    ul.navbar-nav li {
+        margin-bottom: 15px;
+    }
+
+
+    /*  Login  */
+    .box {
+        width: 270px;
+    }
+
+    .sign-up-text {
+        font-size: 13px;
+    }
+
+    .form-content {
+        padding: 10px 20px;
+    }
+
+    /*  My Profile  */
+    #my-profile,
+    #add-administrator,
+    #add-category,
+    #add-country,
+    #add-type,
+    #system-configuration {
+        padding-top: 40px;
+    }
+
+    .phone-no select {
+        padding-left: 5px;
+    }
+
+    /* ==============================================
+                Manage admini,category,country,type
+    ================================================= */
+    #manage-type,
+    #manage-country,
+    #manage-category,
+    #manage-administrator {
+        padding-top: 40px;
+    }
+
+    #manage-type .search-bar,
+    #manage-country .search-bar,
+    #manage-category .search-bar,
+    #manage-administrator .search-bar {
+        margin-left: 0;
+    }
+
+    #manage-type .btn-search,
+    #manage-country .btn-search,
+    #manage-category .btn-search,
+    #manage-administrator .btn-search {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .btn-type,
+    .btn-country,
+    .btn-category,
+    .btn-administrator {
+        margin-bottom: 10px;
+    }
+
+    /* ==============================================
+                published,rejected,spam,notes under
+    ================================================= */
+    #published-notes,
+    #rejected-notes,
+    #spam-reports,
+    #notes-under-review,
+    #downloaded-notes,
+    #members {
+        padding-top: 40px;
+    }
+
+    #published-notes .btn-search,
+    #rejected-notes .btn-search,
+    #spam-reports .btn-search,
+    #notes-under-review .btn-search,
+    #downloaded-notes .btn-search,
+    #members .btn-search {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #published-notes .search-bar,
+    #rejected-notes .search-bar,
+    #spam-reports .search-bar,
+    #notes-under-review .search-bar,
+    #downloaded-notes .search-bar,
+    #members .search-bar {
+        margin-left: 0;
+    }
+
+    .search-section {
+        margin-top: 10px;
+    }
+
+    /* ==============================================
+                Dashboard
+    ================================================= */
+    #dashboard {
+        padding-top: 40px;
+    }
+
+    #published .btn-search {
+        margin-left: 0;
+    }
+
+    #published .search-bar {
+        margin-left: 0px;
+        margin-top: 5px;
+
+    }
+
+    #published .select-month {
+        margin-top: 15px;
+    }
+
+    /* ========================================
+                Notes Details
+    ======================================== */
+    #note-details {
+        padding-top: 40px;
+    }
+
+    .book-info {
+        margin-top: 30px;
+    }
+
+    .note-detail-right {
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .customer-reviews {
+        margin-top: 10px;
+    }
+
+    .note-detail-preview {
+        margin-bottom: 40px;
+    }
+
+    .customer-reviews {
+        height: auto;
+        margin-right: 15px;
+    }
+
+    /* ========================================
+                member Details
+    ======================================== */
+    #member-details {
+        padding-top: 40px;
+    }
+
+    .member-info {
+        border-right: 0px solid #d1d1d1;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .right-info {
+        margin-bottom: 10px;
+    }
+
+    .left-side p,
+    .right-side p {
+        font-size: 13px;
+    }
+
+    .right-side p {
+        margin-left: -40px;
+    }
+
+
+    /*  footer  */
+    .footer-text p {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    section {
+        padding-bottom: 40px;
+    }
+
+    /* =====================================
+             Navgation
+    ======================================== */
+    .navbar {
+        display: block;
+    }
+
+    nav .container {
+        max-width: 100%;
+        margin: 0 !important;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+    }
+
+    #navbarSupportedContent {
+        background: #fff;
+    }
+
+    .navbar-toggler {
+        padding-right: 20px !important;
+    }
+
+    nav .dropdown-menu {
+        border: none;
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    nav li.profile-dropdown .dropdown-menu a.logout:hover {
+        color: #6255a5;
+    }
+
+    nav .dropdown-item {
+        padding: 9px 18px;
+        font-size: 14px;
+    }
+
+    nav .dropdown-menu .dropdown-item:hover,
+    nav .dropdown-menu .dropdown-item:focus,
+    nav .dropdown-menu .dropdown-item:active {
+        color: #6255a5;
+        background-color: #fff;
+    }
+
+    /*--------------- DropDowns --------------*/
+    nav .profile-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    nav .notes-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    nav .settings-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    nav .reports-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    ul.navbar-nav {
+        padding: 0 10px;
+        margin-top: 15px;
+    }
+
+    ul.navbar-nav li {
+        margin-bottom: 15px;
+    }
+
+
+    /*  My Profile  */
+    #my-profile,
+    #add-administrator,
+    #add-category,
+    #add-country,
+    #add-type,
+    #system-configuration {
+        padding-top: 20px;
+    }
+
+    /* ==============================================
+                Manage admini,category,country,type
+    ================================================= */
+    #manage-type,
+    #manage-country,
+    #manage-category,
+    #manage-administrator {
+        padding-top: 50px;
+    }
+
+    #manage-type .search-bar,
+    #manage-country .search-bar,
+    #manage-category .search-bar,
+    #manage-administrator .search-bar {
+        margin-left: 0;
+    }
+
+    .btn-type,
+    .btn-country,
+    .btn-category,
+    .btn-administrator {
+        margin-bottom: 10px;
+    }
+
+    /* ==============================================
+                published,rejected,spam,notes under
+    ================================================= */
+    #published-notes,
+    #rejected-notes,
+    #spam-reports,
+    #notes-under-review,
+    #downloaded-notes,
+    #members {
+        padding-top: 50px;
+    }
+
+    #published-notes .search-bar,
+    #rejected-notes .search-bar,
+    #spam-reports .search-bar,
+    #notes-under-review .search-bar,
+    #downloaded-notes .search-bar,
+    #members .search-bar {
+        margin-left: 0;
+    }
+
+    .search-section {
+        margin-top: 10px;
+    }
+
+    /* ==============================================
+                Dashboard
+    ================================================= */
+    #dashboard {
+        padding-top: 50px;
+    }
+
+    #published .btn-search {
+        margin-left: 0;
+    }
+
+    #published .search-bar {
+        margin-left: 0px;
+
+    }
+
+    #published .select-month {
+        margin-left: -13px;
+    }
+
+    /* ========================================
+                Notes Details
+    ======================================== */
+    #note-details {
+        padding-top: 50px;
+    }
+
+    .note-detail-right {
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .customer-reviews {
+        margin-top: 10px;
+    }
+
+    .note-detail-preview {
+        margin-bottom: 40px;
+    }
+
+    /* ========================================
+                member Details
+    ======================================== */
+    #member-details {
+        padding-top: 50px;
+    }
+
+    .member-info {
+        border-right: 0px solid #d1d1d1;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .right-info {
+        margin-bottom: 10px;
+    }
+
+
+    /* footer */
+    .footer-text p {
+        font-size: 13px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    section {
+        padding-bottom: 50px;
+    }
+
+    /* =====================================
+             Navgation
+    ======================================== */
+    .navbar {
+        display: block;
+    }
+
+    nav .container {
+        max-width: 100%;
+        margin: 0 !important;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+    }
+
+    #navbarSupportedContent {
+        background: #fff;
+    }
+
+    .navbar-toggler {
+        padding-right: 20px !important;
+    }
+
+    nav .dropdown-menu {
+        border: none;
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    nav li.profile-dropdown .dropdown-menu a.logout:hover {
+        color: #6255a5;
+    }
+
+    nav .dropdown-item {
+        padding: 9px 18px;
+        font-size: 14px;
+    }
+
+    nav .dropdown-menu .dropdown-item:hover,
+    nav .dropdown-menu .dropdown-item:focus,
+    nav .dropdown-menu .dropdown-item:active {
+        color: #6255a5;
+        background-color: #fff;
+    }
+
+
+    /*--------------- DropDowns --------------*/
+    nav .profile-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    nav .notes-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    nav .settings-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    nav .reports-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(25px, 0, 0) !important;
+        transform: translate3d(25px, 0, 0) !important;
+    }
+
+    ul.navbar-nav {
+        padding: 0 10px;
+        margin-top: 15px;
+    }
+
+    ul.navbar-nav li {
+        margin-bottom: 15px;
+    }
+
+
+    /*  My Profile  */
+    #my-profile,
+    #add-administrator,
+    #add-category,
+    #add-country,
+    #add-type,
+    #system-configuration {
+        padding-top: 50px;
+    }
+
+    /* ==============================================
+                published,rejected,spam,notes under
+    ================================================= */
+    #published-notes,
+    #rejected-notes,
+    #spam-reports,
+    #notes-under-review,
+    #downloaded-notes,
+    #members {
+        padding-top: 50px;
+    }
+
+    #downloaded-notes .search-section {
+        float: right;
+        margin-right: -30px;
+        margin-top: 10px;
+    }
+
+    /* ==============================================
+                Manage admini,category,country,type
+    ================================================= */
+    #manage-type,
+    #manage-country,
+    #manage-category,
+    #manage-administrator {
+        padding-top: 50px;
+    }
+
+    /* ==============================================
+                Dashboard
+    ================================================= */
+    #dashboard {
+        padding-top: 50px;
+    }
+
+    #published .search-bar {
+        margin-left: 0;
+    }
+
+    #published .select-month {
+        margin-left: -13px;
+    }
+
+    /* ========================================
+                Notes Details
+    ======================================== */
+    #note-details {
+        padding-top: 50px;
+    }
+
+    .note-detail-right {
+        margin-top: 20px;
+    }
+
+    .customer-reviews,
+    .note-detail-preview {
+        height: 600px;
+    }
+
+    /* ========================================
+                member Details
+    ======================================== */
+    #member-details {
+        padding-top: 50px;
+    }
+
+    .member-info {
+        border-right: 0px solid #d1d1d1;
+        margin-bottom: 0px;
+    }
+
+    .right-info {
+        margin-left: 165px;
+        margin-bottom: 20px;
+    }
+
+    .right-info .right-side p {
+        margin-left: -20px;
+    }
+
+    /* footer */
+    .footer-text {
+        width: 50%;
+    }
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* =====================================
+             Navgation
+    ======================================== */
+    #navbarSupportedContent .nav-item {
+        padding: 0 10px;
+    }
+
+    /*--------------- DropDowns --------------*/
+    nav .profile-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(520px, 0, 0) !important;
+        transform: translate3d(520px, 0, 0) !important;
+    }
+
+    nav .notes-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(190px, 0, 0) !important;
+        transform: translate3d(190px, 0, 0) !important;
+    }
+
+    nav .settings-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(420px, 0, 0) !important;
+        transform: translate3d(420px, 0, 0) !important;
+    }
+
+    nav .reports-dropdown div.dropdown-menu.show {
+        -webkit-transform: translate3d(380px, 0, 0) !important;
+        transform: translate3d(380px, 0, 0) !important;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
